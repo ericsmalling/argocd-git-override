@@ -1,5 +1,4 @@
-ARG IMAGE=registry.access.redhat.com/ubi8/nodejs-14
-FROM $IMAGE
+FROM registry.access.redhat.com/ubi8/nodejs-14
 
 WORKDIR /opt/app-root/src
 
